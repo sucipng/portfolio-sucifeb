@@ -1,0 +1,107 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif !important;
+}
+body {
+  background-color: #1b1f24;
+}
+
+.blue{ 
+  color: #1472ff !important;
+ }
+.gray {
+  color: #d9d9d9 !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+.navbar .nav-link {
+  font-size: 14px !important;
+  padding: 10px 30px 10px 30px;
+}
+.navbar .nav-link:hover {
+  background-color: #2a2c3369;
+}
+.contact-btn {
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #1472ff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.bg {
+  background-image: url(img/background.png);
+  min-height: 125vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.social span {
+  padding: 10px;
+}
+
+.text {
+  padding-top: 30vh;
+  text-align: justify;
+}
+.poto{
+  width: 300px;
+  height: 300px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 50%;
+  border: white 2px solid;
+  box-shadow: 0px 0px 30px #1472ff;
+}
+.isi{
+  margin: 20px;
+  padding: 20px;
+  display: block;
+}
+.box-s{
+  margin: 10px;
+  height: 10px;
+  box-shadow: 0px 0px 5px 5px #1472ff;
+}
+.card{
+  background-color: transparent !important;
+  box-shadow: 0px 00px 5px 5px blue;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-height: 100%;
+}
+.container form{
+  background-color: #1b1f24;
+
+}
+.form{
+  max-width: 600px;
+}
+.btn-primary{
+  background-color: #1472ff;
+  padding: 10px 50px 10px 50px;
+}
+.form input:focus,textarea{
+  background-color: transparentn !important;
+  border: 2px solid #1472ff !important;
+}
+form input::placeholder textarea::placeholder{
+  color: #d9d9d9 !important;
+  font-size: 11px !important;
+  font-weight: 300px !important;
+}
+.footer{
+  background-color: #1b1f24; height: 20vh;
+}
+
+
+
+
